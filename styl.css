@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(0, 195, 255);
+}
+.main{
+    background: #1cd3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    border-radius: 5px;
+    background: #0c0627;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.main .register{
+    position: relative;
+    margin-top: 50px;
+}
+.login{
+    position: absolute;
+    top: 25pc;
+    left: 200px;
+}
+.main input {
+    margin-top: 10px;
+    background: #5f5757;
+    border-radius: 5px;
+    height: 30px;
+color: yellowgreen;
+font-size: 20px;
+border: none;
+outline: none;
+border-bottom: rgb(31, 34, 36) 4px solid;
+}
+.main input::placeholder{
+    color: #0c0627;
+}
+.main p{
+   font-size: 25px;
+   color: #8400ff;
+   cursor: pointer;
+}
+.regbtn,.logbtn{
+text-decoration: none;
+width: 150px;
+height: 35px;
+background-color: rgb(97, 255, 5);
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+margin-left: 80px;
+cursor: pointer;
+border-radius: 15px;
+}
+.regbtn a ,.logbtn a{
+    text-decoration: none;
+    font-size: 25px;
+}
